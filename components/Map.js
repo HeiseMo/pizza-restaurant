@@ -8,7 +8,7 @@ function Map({ address }) {
 
   useEffect(() => {
     const loader = new Loader({
-      apiKey: process.env.MAPS_API_KEY,
+      apiKey: process.env.NEXT_PUBLIC_MAPS_API_KEY,
       version: "weekly",
     });
 
